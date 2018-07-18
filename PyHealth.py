@@ -132,7 +132,7 @@ class PyHealth(object):
                     continue
 
 if __name__ == "__main__":
-    pyHealth = PyHealth("***REMOVED***","***REMOVED***")
+    pyHealth = PyHealth("email","password")
     pyHealth.auth()
     print(pyHealth.getExec())
                 
